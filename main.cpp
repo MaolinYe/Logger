@@ -1,7 +1,7 @@
 #include "logger.h"
 
 int main() {
-    Logger::InitLogger("logfile.txt");
+    Logger::InitLogger("logfile.log");
     LOG(LogLevel::DEBUG, "This is a debug message");
     LOG(LogLevel::INFO, "This is an info message");
     LOG(LogLevel::WARN, "This is a warning message");
